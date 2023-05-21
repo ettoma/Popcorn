@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		760849522A1631C100323F06 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760849512A1631C100323F06 /* MainView.swift */; };
+		760849552A16BC9600323F06 /* MovieAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760849542A16BC9600323F06 /* MovieAPI.swift */; };
 		769494812A043FFE000E29A2 /* PopcornApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769494802A043FFE000E29A2 /* PopcornApp.swift */; };
-		769494832A043FFE000E29A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769494822A043FFE000E29A2 /* ContentView.swift */; };
+		769494832A043FFE000E29A2 /* MainViewO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769494822A043FFE000E29A2 /* MainViewO.swift */; };
 		769494852A043FFF000E29A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769494842A043FFF000E29A2 /* Assets.xcassets */; };
 		769494882A043FFF000E29A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769494872A043FFF000E29A2 /* Preview Assets.xcassets */; };
 		769494922A043FFF000E29A2 /* PopcornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769494912A043FFF000E29A2 /* PopcornTests.swift */; };
 		7694949C2A043FFF000E29A2 /* PopcornUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7694949B2A043FFF000E29A2 /* PopcornUITests.swift */; };
 		7694949E2A043FFF000E29A2 /* PopcornUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7694949D2A043FFF000E29A2 /* PopcornUITestsLaunchTests.swift */; };
+		76F6B0A82A05963A002F1379 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F6B0A72A05963A002F1379 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		760849512A1631C100323F06 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		760849542A16BC9600323F06 /* MovieAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPI.swift; sourceTree = "<group>"; };
 		7694947D2A043FFE000E29A2 /* Popcorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popcorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		769494802A043FFE000E29A2 /* PopcornApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcornApp.swift; sourceTree = "<group>"; };
-		769494822A043FFE000E29A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		769494822A043FFE000E29A2 /* MainViewO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewO.swift; sourceTree = "<group>"; };
 		769494842A043FFF000E29A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		769494872A043FFF000E29A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7694948D2A043FFF000E29A2 /* PopcornTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopcornTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,8 @@
 		769494972A043FFF000E29A2 /* PopcornUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopcornUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7694949B2A043FFF000E29A2 /* PopcornUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcornUITests.swift; sourceTree = "<group>"; };
 		7694949D2A043FFF000E29A2 /* PopcornUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcornUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76EF91222A1A681800D638FA /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
+		76F6B0A72A05963A002F1379 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		760849532A16BC6C00323F06 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				760849542A16BC9600323F06 /* MovieAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		769494742A043FFE000E29A2 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +109,12 @@
 		7694947F2A043FFE000E29A2 /* Popcorn */ = {
 			isa = PBXGroup;
 			children = (
+				760849532A16BC6C00323F06 /* API */,
+				76F6B0A62A0594B6002F1379 /* Views */,
 				769494802A043FFE000E29A2 /* PopcornApp.swift */,
-				769494822A043FFE000E29A2 /* ContentView.swift */,
 				769494842A043FFF000E29A2 /* Assets.xcassets */,
 				769494862A043FFF000E29A2 /* Preview Content */,
+				76EF91222A1A681800D638FA /* TODO.md */,
 			);
 			path = Popcorn;
 			sourceTree = "<group>";
@@ -125,6 +142,16 @@
 				7694949D2A043FFF000E29A2 /* PopcornUITestsLaunchTests.swift */,
 			);
 			path = PopcornUITests;
+			sourceTree = "<group>";
+		};
+		76F6B0A62A0594B6002F1379 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				769494822A043FFE000E29A2 /* MainViewO.swift */,
+				76F6B0A72A05963A002F1379 /* HomeView.swift */,
+				760849512A1631C100323F06 /* MainView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				769494832A043FFE000E29A2 /* ContentView.swift in Sources */,
+				76F6B0A82A05963A002F1379 /* HomeView.swift in Sources */,
+				760849522A1631C100323F06 /* MainView.swift in Sources */,
+				769494832A043FFE000E29A2 /* MainViewO.swift in Sources */,
 				769494812A043FFE000E29A2 /* PopcornApp.swift in Sources */,
+				760849552A16BC9600323F06 /* MovieAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +452,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,8 +479,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
