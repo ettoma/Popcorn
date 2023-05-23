@@ -12,15 +12,13 @@ struct MainView: View {
     func GetMovieFromKeyword(keyword: String) async   {
         
         let res =  await API().FetchMovieFromKeyword(keyword: input)
-        print(res)
-        movieTitle = res[0]
-        movieImage = res[1]
+        
+        movies = res
     }
     
     @State var input: String = ""
     
-    @State var movieTitle: String = ""
-    @State var movieImage: String = ""
+    @State var movies: [Movie] = []
     
     var body: some View {
         VStack{
@@ -30,38 +28,35 @@ struct MainView: View {
                     .frame(width: UIScreen.main.bounds.width * 3, height: 400)
                     .rotationEffect(Angle(degrees: 15))
                     .offset(y: -100)
-                HStack{
-                    Form{
+
+                    Form {
                         TextField(
                             "Enter a keyword",
                             text: $input)
                         
-                        .padding(25)
+                        .padding(10)
                         .textInputAutocapitalization(.never)
                         .autocorrectionDisabled(true)
-                        Button(
-                            action: {
-                                Task {
-                                   await GetMovieFromKeyword(keyword: input)
-                                }
-                            },
-                            label: {
-                                Image(systemName: "magnifyingglass")
-                            })
-                        
+                    }
+                    .onSubmit {
+                        Task {
+                                                           await GetMovieFromKeyword(keyword: input)
+                                                    }
                     }
                     .cornerRadius(20)
                     .offset(y: -50)
-                    .frame(width: UIScreen.main.bounds.width * 0.85, height: 200)
+                    .frame(width: UIScreen.main.bounds.width * 0.85, height: 150)
                 }
 
-            }
             
-            ScrollView {
-                Text(movieTitle.isEmpty ? "" : movieTitle)
-                    .bold()
-                AsyncImage(url: URL(string: movieImage), scale: 1)
-                    .padding(20)
+            
+            ScrollView(.horizontal) {
+                HStack {
+                    ForEach(movies) { movie in
+                        MovieCard(title: movie.Title, poster: movie.Poster)
+                    }
+                }
+
             }
 
             Spacer()

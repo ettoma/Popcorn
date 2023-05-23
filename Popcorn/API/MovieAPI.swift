@@ -12,7 +12,9 @@ let headers = [
     "X-RapidAPI-Host": "movie-database-alternative.p.rapidapi.com"
 ]
 
-struct Movie: Codable {
+struct Movie: Identifiable, Codable {
+    var imdbID: String
+    var id: String { imdbID }
     var Title: String
     var Year: String
     var Poster: String
@@ -26,8 +28,8 @@ struct MovieSearch: Codable {
 
 
 class API {
-    func FetchMovieFromKeyword(keyword: String) async -> [String] {
-        var result = [""]
+    func FetchMovieFromKeyword(keyword: String) async -> [Movie] {
+        var result: [Movie] = []
         
         let searchKeyword = keyword.replacingOccurrences(of: " ", with: "%20")
         
@@ -40,20 +42,25 @@ class API {
          
         let (data, response) = try! await Foundation.URLSession.shared.data(for: request)
         
+        if (response as? HTTPURLResponse)?.statusCode != 200 {
+            let r = (response as? HTTPURLResponse)
+            print("Call failed with error code: \(r!.statusCode)")
+        }
+        
         let movies = try! JSONDecoder().decode(MovieSearch.self, from: data)
         
         result.removeAll()
         
 //        print(movies)
         if (movies.Search != nil) {
-            result.append(movies.Search![0].Title)
-            result.append(movies.Search![0].Poster)
+                        
+            result = movies.Search!
             
             return result
         }
 
         
-        return ["ok", "no"]
+        return []
         
     }
 }
