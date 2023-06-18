@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "28968587-5DB9-4904-BA68-C7A334BFF231"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DA9208B-64AB-45A4-ABE3-1E79661A21AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Popcorn/Views/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86A5ABDE-1F5D-47A7-86C9-245AC6F5FBEF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Popcorn/Views/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46E0F291-E3B2-4F75-B370-AA5A151DBB56"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Popcorn/Views/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71AC628F-2736-4101-9B47-81350C71CD79"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Popcorn/API/MovieAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "FetchMovieFromKeyword(keyword:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A4433AD-358C-49BB-A358-F3E4C35955CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Popcorn/API/MovieAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "FetchMovieFromKeyword(keyword:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC8A999B-429C-4E6F-A061-4D2517B92259"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Popcorn/API/MovieAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "FetchMovieFromKeyword(keyword:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DC8A999B-429C-4E6F-A061-4D2517B92259 - 598a3c434ed34ec5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Popcorn.API.FetchMovieFromKeyword(keyword: Swift.String) async -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Popcorn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jinsettore/Desktop/Coding/Ettore/Projects/popcorn/Popcorn/Popcorn/API/MovieAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "DC8A999B-429C-4E6F-A061-4D2517B92259 - 598a3c434ed34ec5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Popcorn.API.FetchMovieFromKeyword(keyword: Swift.String) async -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Popcorn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jinsettore/Desktop/Coding/Ettore/Projects/popcorn/Popcorn/Popcorn/API/MovieAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "528">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEE1C8AE-4E3A-43AF-989F-79995176AC55"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Popcorn/API/MovieAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "FetchMovieFromKeyword(keyword:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DEE1C8AE-4E3A-43AF-989F-79995176AC55 - 65c16955a46c1c73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Popcorn.API.FetchMovieFromKeyword(keyword: Swift.String) async -&gt; Swift.Array&lt;Popcorn.Movie&gt;"
+                  moduleName = "Popcorn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jinsettore/Desktop/Coding/Ettore/Projects/popcorn/Popcorn/Popcorn/API/MovieAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1552">
+               </Location>
+               <Location
+                  uuid = "DEE1C8AE-4E3A-43AF-989F-79995176AC55 - 8248b239ba73a87d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Popcorn.API.FetchMovieFromKeyword(keyword: Swift.String) async -&gt; Swift.Array&lt;Popcorn.Movie&gt;"
+                  moduleName = "Popcorn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jinsettore/Desktop/Coding/Ettore/Projects/popcorn/Popcorn/Popcorn/API/MovieAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "DEE1C8AE-4E3A-43AF-989F-79995176AC55 - b029afb2a19b905d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Popcorn.API.FetchMovieFromKeyword(keyword: Swift.String) async -&gt; Swift.Array&lt;Popcorn.Movie&gt;"
+                  moduleName = "Popcorn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jinsettore/Desktop/Coding/Ettore/Projects/popcorn/Popcorn/Popcorn/API/MovieAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "DEE1C8AE-4E3A-43AF-989F-79995176AC55 - 66bc0ecf2340524c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Popcorn.API.FetchMovieFromKeyword(keyword: Swift.String) async -&gt; Swift.Array&lt;Popcorn.Movie&gt;"
+                  moduleName = "Popcorn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jinsettore/Desktop/Coding/Ettore/Projects/popcorn/Popcorn/Popcorn/API/MovieAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
